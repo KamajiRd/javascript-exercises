@@ -1,9 +1,11 @@
-const add = function() {
-	
+const add = function(num1, num2) {
+	let sumTotal = parseInt(num1) + parseInt(num2)
+  return sumTotal
 };
 
-const subtract = function() {
-	
+const subtract = function(num1, num2) {
+  let substractTotal = parseInt(num1) - parseInt(num2)
+  return substractTotal
 };
 
 const sum = function() {

@@ -25,11 +25,20 @@ const multiply = function(array) {
   return multiplyTotal
 };
 
-const power = function() {
-	
+const power = function(num1, power1) {
+  let powerTotal = Math.pow(num1, power1)
+  return powerTotal
 };
 
-const factorial = function() {
+const factorial = function(num1) {
+  let factorialTotal = num1
+  if (num1 === 0 || num1 ===  1)
+  return 1;
+  while(num1 > 1) {
+    num1--;
+    factorialTotal *= num1
+  }
+  return factorialTotal
 	
 };
 

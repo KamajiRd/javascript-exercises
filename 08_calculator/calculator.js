@@ -1,6 +1,6 @@
 const add = function(num1, num2) {
-	let sumTotal = parseInt(num1) + parseInt(num2)
-  return sumTotal
+	let addTotal = parseInt(num1) + parseInt(num2)
+  return addTotal
 };
 
 const subtract = function(num1, num2) {
@@ -8,7 +8,12 @@ const subtract = function(num1, num2) {
   return substractTotal
 };
 
-const sum = function() {
+const sum = function(array) {
+  let sumTotal = 0
+  for (i = 0; i < array.length ; i++) {
+    sumTotal += array[i]
+  }
+  return sumTotal
 	
 };
 
